@@ -1,4 +1,5 @@
-<h2>Welcome to Library Of Programs <h2>
+<h2>Welcome to Library Of Programs </h2>
+<hr>
 <br>
 This repository has many language and Programs.
 <br>
@@ -16,4 +17,4 @@ JAVA language have following Programs:<br>
 
 
 
-Thanks <b> Support <b>.
+Thanks <b> Support </b>.
