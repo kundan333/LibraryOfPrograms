@@ -6,10 +6,10 @@ This repository has many language and Programs.
 <br>
 <br>
 C language have following Programs:<br>
-* C Array Programs
-* C Sorting Programs
+* C Array Programs <br>
+* C Sorting Programs <br>
    * Bubble sort
-
+<br>
 JAVA language have following Programs:<br>
 * java print Ascii number of any character or symbol.
 
