@@ -14,8 +14,7 @@ C language have following Programs:<br>
 <br>
 JAVA language have following Programs:<br>
 <ul>
-<li>  java print Ascii number of any character or symbol.
-<li> 
+<li> java print Ascii number of any character or symbol.</li> 
 </ul>
 
 <br>
