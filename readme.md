@@ -9,7 +9,10 @@ C language have following Programs:<br>
 <ul>
 <li> C Array Programs.</li>
 <li>C Sorting Programs. </li>
-<ul><li> Bubble sort.</li></ul>
+<ul>
+    <li> Bubble sort.</li>
+    <li> Merge sort. </li>
+</ul>
    </ul>
 <br>
 JAVA language have following Programs:<br>
