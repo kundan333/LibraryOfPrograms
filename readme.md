@@ -7,7 +7,7 @@ This repository has many language and Programs.
 <br>
 <a href ="https://github.com/kundan333/LibraryOfPrograms/tree/master/C%20Programs">C language</a> have following Programs:<br>
 <ul>
-<li> C Array Programs.</li>
+<a href = "https://github.com/kundan333/LibraryOfPrograms/blob/master/C%20Programs/Array.c"><li> C Array Programs.</li></a>
 <li>C Sorting Programs. </li>
 <ul>
     <li> Bubble sort.</li>
