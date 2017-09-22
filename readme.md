@@ -19,6 +19,12 @@ JAVA language have following Programs:<br>
 <ul>
 <li> java print Ascii number of any character or symbol.</li> 
 </ul>
+<br>
+Java Script have following Programs:<br>
+<ul>
+<li> Hello World </li>
+<li> Form Validation Using Java script .</li> 
+</ul>
 
 <br>
 
