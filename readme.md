@@ -5,7 +5,7 @@ This repository has many language and Programs.
 <br>
 <br>
 <br>
-C language have following Programs:<br>
+<a href ="https://github.com/kundan333/LibraryOfPrograms/tree/master/C%20Programs">C language</a> have following Programs:<br>
 <ul>
 <li> C Array Programs.</li>
 <li>C Sorting Programs. </li>
