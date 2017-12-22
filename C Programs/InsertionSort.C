@@ -1,9 +1,9 @@
 /* sorting array using insertion sort */
 #include<stdio.h>
 #include<conio.h>
-void main(){
+int main(){
 int i,j,n,k,temp,a[50];
-clrscr();
+
 //n= 5;
 printf("\n enter the size of array ");
 scanf("\n %d",&n);
