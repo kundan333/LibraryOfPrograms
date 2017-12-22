@@ -6,7 +6,7 @@ void main()
 
 int a[100],n,i;
 //a[100] -- 100 is length of array
-clrscr();
+
 
 printf("Enter length of array \n");
 scanf("%d",&n);
