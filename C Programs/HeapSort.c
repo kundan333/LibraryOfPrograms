@@ -4,12 +4,6 @@
 // To heapify a subtree rooted with node i which is
 // an index in arr[]. n is size of heap
 
-void swap(int a, int b)
-{
-    int t = a;
-    a = b;
-    b = t;
-}
 
 void heapify(int arr[], int n, int i)
 {
@@ -28,7 +22,10 @@ void heapify(int arr[], int n, int i)
     // If largest is not root
     if (largest != i)
     {
-        swap(arr[i], arr[largest]);
+        
+    int t = arr[i];
+    arr[i] = arr[largest];
+    arr[largest] = t;
  
         // Recursively heapify the affected sub-tree
         heapify(arr, n, largest);
@@ -46,7 +43,10 @@ void heapSort(int arr[], int n)
     for (int i=n-1; i>=0; i--)
     {
         // Move current root to end
-        swap(arr[0], arr[i]);
+     
+    int t = arr[0];
+    arr[0] = arr[i];
+    arr[i] = t;
  
         // call max heapify on the reduced heap
         heapify(arr, i, 0);
