@@ -5,7 +5,7 @@ void main()
 {
 void bubble(int *a);
 int a[N],i;
-clrscr();
+
 printf("Enter Elements in array\n");
 for(i=0;i<N;i++)
 {
