@@ -4,7 +4,7 @@
 void main()
 {
 
-int a[100],n,i;
+int a[100],n,i
 //a[100] -- 100 is length of array
 
 
@@ -13,7 +13,7 @@ scanf("%d",&n);
 printf("Enter elements to array \n");
 for(i=0;i<n;i++)
 {
-scanf("%d",&a[i]);
+scanf("%s",&a[i]);
 }
 printf("Your array is = \n");
 
