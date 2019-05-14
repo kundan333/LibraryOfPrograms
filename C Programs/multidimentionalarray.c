@@ -1,3 +1,7 @@
+//author of file kundan singh bora 
+//kundan333/LibraryOfPrograms is licensed under the
+//MIT License
+
 #include <stdio.h>
 #include <stdlib.h>
 
