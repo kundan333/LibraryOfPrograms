@@ -21,22 +21,56 @@ Explanation
  Sample Case 2: LCM(2,4) returns 4 which has only one distinct prime factor i.e 2. Since, 1 is not prime, answer is "No"
 */
 #include<stdio.h>
+#include <stdbool.h>
 
 int lcm(int,int);
+int findTotalDistinctPrimeFactors(int);
+bool isPrime(int);
 void main(){
 	
 	int a,b;
 	int div=1;
 	
+	
+	
 	printf("Enter Number a and b \n");
 	scanf("%d %d",&a,&b);
 	
 	
+	if(isPrime(findTotalDistinctPrimeFactors(lcm(a,b)))){
+		printf("Yes\n");
+	}else{
+		printf("No \n");
+	}
 	
+}
+
+int findTotalDistinctPrimeFactors(int num){
+	int pointer=2;
+	int result=0;
+	while(isPrime(pointer) && pointer<=num/2){
+		
+		if(num%pointer==0){
+			result++;
+		}
+		pointer++;
+	}
+	return result;
 	
-	
-	printf("\n LCM of %d and %d is %d",a,b,lcm(a,b));
-	
+}
+
+bool isPrime(int num){
+	if(num==1||num==0){
+		return false;
+	}
+	int primePointer=1;
+	while(num%primePointer==0&&primePointer<=num/2){
+		if(primePointer>=2){
+			return false;
+		}
+		primePointer++;
+	}
+	return true;
 }
 
 int lcm(int num1,int num2){
